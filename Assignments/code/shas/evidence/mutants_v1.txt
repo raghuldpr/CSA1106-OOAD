@@ -1,0 +1,4 @@
+M1 KILLED run 20 fail 0 err 1 ['CancellationBoundaryTest.confirmedCancellationRespectsTheTwoHourRule']
+M2 KILLED run 20 fail 1 err 0 ['AppointmentLifecycleTest.requestedIsCancelledAndSlotReleasedWhenPaymentTimesOut']
+M3 SURVIVED run 20 fail 0 err 0 []
+mutation score v1: 2/3 = 67%

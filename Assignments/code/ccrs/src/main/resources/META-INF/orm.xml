@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Persistence metadata kept OUTSIDE the domain classes so that the domain
+     layer has no compile-time dependency on the OODBMS (persistence independence). -->
+<entity-mappings version="2.0" xmlns="http://java.sun.com/xml/ns/persistence/orm"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd">
+  <entity class="edu.simats.ccrs.domain.User">
+    <attributes><id name="id"/></attributes>
+  </entity>
+  <entity class="edu.simats.ccrs.domain.Student"/>
+  <entity class="edu.simats.ccrs.domain.Faculty"/>
+  <entity class="edu.simats.ccrs.domain.Course">
+    <attributes><id name="code"/></attributes>
+  </entity>
+  <entity class="edu.simats.ccrs.domain.Registration">
+    <attributes><id name="id"/></attributes>
+  </entity>
+  <entity class="edu.simats.ccrs.domain.Payment">
+    <attributes><id name="id"/></attributes>
+  </entity>
+  <entity class="edu.simats.ccrs.domain.CardPayment"/>
+  <entity class="edu.simats.ccrs.domain.UpiPayment"/>
+</entity-mappings>

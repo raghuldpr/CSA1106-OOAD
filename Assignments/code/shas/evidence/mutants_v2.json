@@ -1,0 +1,42 @@
+{
+ "M1": {
+  "desc": "BR5 boundary: \">=\" changed to \">\" (cancellation exactly 120 minutes before is refused)",
+  "file": "src/main/java/edu/simats/shas/Appointment.java",
+  "old": "if (minutesBefore >= CANCEL_LIMIT_MINUTES) {",
+  "new": "if (minutesBefore > CANCEL_LIMIT_MINUTES) {",
+  "run": "28",
+  "failures": "0",
+  "errors": "1",
+  "killed": true,
+  "failing": [
+   "CancellationBoundaryTest.confirmedCancellationRespectsTheTwoHourRule"
+  ]
+ },
+ "M2": {
+  "desc": "BR3: slot not released when the payment window times out",
+  "file": "src/main/java/edu/simats/shas/Appointment.java",
+  "old": "if (status != AppointmentStatus.REQUESTED || !paymentWindowExpired()) return false;\n        toCancelled();",
+  "new": "if (status != AppointmentStatus.REQUESTED || !paymentWindowExpired()) return false;\n        status = AppointmentStatus.CANCELLED; patient.removeActive();   // slot.release() missing",
+  "run": "28",
+  "failures": "1",
+  "errors": "0",
+  "killed": true,
+  "failing": [
+   "AppointmentLifecycleTest.requestedIsCancelledAndSlotReleasedWhenPaymentTimesOut"
+  ]
+ },
+ "M3": {
+  "desc": "BR4: e-mail sent when SMS is preferred (and SMS when e-mail is preferred)",
+  "file": "src/main/java/edu/simats/shas/notification/NotificationFactory.java",
+  "old": "if (p.getPreferredChannel() == Channel.SMS)",
+  "new": "if (p.getPreferredChannel() == Channel.EMAIL)",
+  "run": "28",
+  "failures": "2",
+  "errors": "0",
+  "killed": true,
+  "failing": [
+   "PreferredChannelTest.confirmationGoesByEmailWhenEmailIsPreferred",
+   "PreferredChannelTest.confirmationGoesBySmsWhenSmsIsPreferred"
+  ]
+ }
+}

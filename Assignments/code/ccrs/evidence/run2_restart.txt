@@ -1,0 +1,11 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by com.objectdb.o.OSH (file:/C:/Users/raghu/.m2/repository/com/objectdb/objectdb-jk/2.9.6/objectdb-jk-2.9.6.jar)
+WARNING: Please consider reporting this to the maintainers of class com.objectdb.o.OSH
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+> list|S1001
+  OK    Courses of S1001: [R0002 CSA1201 Database Systems; R0003 CSA1605 Cloud Computing; R0005 CSA1302 Computer Networks; R0006 CSA1403 Operating Systems]
+> list|S1002
+  OK    Courses of S1002: [R0004 CSA1605 Cloud Computing]
+> enrol|S1001|Again|again@example.edu|B.E. CSE|3
+  ERROR Storage unavailable, please retry later (duplicate student id S1001)
+Notifications sent: 0 e-mail, 0 SMS

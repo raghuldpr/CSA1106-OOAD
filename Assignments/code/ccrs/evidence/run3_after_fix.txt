@@ -1,0 +1,43 @@
+> enrol|S1001|Asha Kumar|asha@example.edu|B.E. CSE|3
+  OK    Student S1001 enrolled
+> enrol|S1002|Ravi Shankar|ravi@example.edu|B.E. IT|3
+  OK    Student S1002 enrolled
+> enrol|S1003||missing@example.edu|B.E. IT|3
+  ERROR All fields are required
+> enrol|S1004|Bad Semester|bad@example.edu|B.E. IT|9
+  ERROR Semester must be between 1 and 8
+> enrol|S1005|Not Number|nn@example.edu|B.E. IT|three
+  ERROR Semester must be a number
+> enrol|S1001|Duplicate Id|dup@example.edu|B.E. CSE|3
+  ERROR Already exists: duplicate student id S1001
+> register|S1001|CSA1106
+  OK    Registration R0001: S1001 -> CSA1106 (seats 1/60)
+> register|S1001|csa1201
+  OK    Registration R0002: S1001 -> CSA1201 (seats 1/60)
+> register|S1001|CSA1106
+  ERROR S1001 is already registered for CSA1106
+> register|S9999|CSA1106
+  ERROR student not found: S9999
+> register|S1001|XYZ0000
+  ERROR course not found: XYZ0000
+> register|S1001|CSA1605
+  OK    Registration R0003: S1001 -> CSA1605 (seats 1/2)
+> register|S1002|CSA1605
+  OK    Registration R0004: S1002 -> CSA1605 (seats 2/2)
+> register|S1001|CSA1302
+  OK    Registration R0005: S1001 -> CSA1302 (seats 1/60)
+> register|S1001|CSA1403
+  OK    Registration R0006: S1001 -> CSA1403 (seats 1/60)
+> register|S1001|CSA1504
+  ERROR S1001 already has 5 courses (limit 5)
+> list|S1001
+  OK    Courses of S1001: [R0001 CSA1106 Object-Oriented Analysis and Design; R0002 CSA1201 Database Systems; R0003 CSA1605 Cloud Computing; R0005 CSA1302 Computer Networks; R0006 CSA1403 Operating Systems]
+> drop|R0001
+  OK    Dropped R0001
+> drop|R0001
+  ERROR registration R0001 is not active
+> list|S1001
+  OK    Courses of S1001: [R0002 CSA1201 Database Systems; R0003 CSA1605 Cloud Computing; R0005 CSA1302 Computer Networks; R0006 CSA1403 Operating Systems]
+> register||
+  ERROR Student id and course code are required
+Notifications sent: 6 e-mail, 6 SMS

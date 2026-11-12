@@ -1,0 +1,3 @@
+courses|system
+courses|CSA16
+enrol|S1001|Again|again@example.edu|B.E. CSE|3

@@ -1,0 +1,4 @@
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.405 s <<< FAILURE! -- in edu.simats.ccrs.repository.IdGenerationDefectTest
+org.opentest4j.AssertionFailedError: nextId() returned an identifier that already exists: R0002 ==> expected: <true> but was: <false>
+[ERROR]   IdGenerationDefectTest.nextIdIsUniqueAfterADelete:27 nextId() returned an identifier that already exists: R0002 ==> expected: <true> but was: <false>
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0

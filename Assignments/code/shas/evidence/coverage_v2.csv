@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,Payment.Status,0,27,0,0,0,1,0,1,0,1
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,AppointmentStatus,23,33,10,0,2,2,7,1,2,1
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,Patient,15,48,2,2,2,14,3,7,1,7
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,Appointment,15,253,1,23,5,52,6,25,5,14
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,BusinessRuleException,0,4,0,0,0,1,0,1,0,1
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,Channel,0,15,0,0,0,1,0,1,0,1
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,InvalidTransitionException,0,4,0,0,0,1,0,1,0,1
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,Slot,6,48,0,4,2,11,2,7,2,5
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas,Payment,14,92,1,13,3,18,4,11,3,5
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas.notification,EmailNotification,3,20,0,0,1,4,1,3,1,3
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas.notification,Notification,6,22,0,2,2,5,2,3,2,2
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas.notification,NotificationFactory,0,31,0,2,0,3,0,3,0,2
+Smart Hospital Appointment System core (CSA1106 Assignment 5),edu.simats.shas.notification,SMSNotification,3,19,0,0,1,4,1,3,1,3

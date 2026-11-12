@@ -1,0 +1,18 @@
+[INFO] Running edu.simats.ccrs.architecture.LayerDependencyTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 s -- in edu.simats.ccrs.architecture.LayerDependencyTest
+[INFO] Running edu.simats.ccrs.controller.RegistrationControllerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in edu.simats.ccrs.controller.RegistrationControllerTest
+[INFO] Running edu.simats.ccrs.domain.CourseAndRegistrationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s -- in edu.simats.ccrs.domain.CourseAndRegistrationTest
+[INFO] Running edu.simats.ccrs.EndToEndTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.166 s -- in edu.simats.ccrs.EndToEndTest
+[INFO] Running edu.simats.ccrs.repository.IdGenerationDefectTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.430 s -- in edu.simats.ccrs.repository.IdGenerationDefectTest
+[INFO] Running edu.simats.ccrs.repository.ObjectDbRepositoryTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.985 s -- in edu.simats.ccrs.repository.ObjectDbRepositoryTest
+[INFO] Running edu.simats.ccrs.service.payment.PaymentFactoryTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in edu.simats.ccrs.service.payment.PaymentFactoryTest
+[INFO] Running edu.simats.ccrs.service.RegistrationServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in edu.simats.ccrs.service.RegistrationServiceTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS

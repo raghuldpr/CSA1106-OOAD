@@ -1,0 +1,7 @@
+> courses|system
+  OK    Courses matching 'system': [CSA1201 Database Systems (59 seats free); CSA1403 Operating Systems (59 seats free)]
+> courses|CSA16
+  OK    Courses matching 'csa16': [CSA1605 Cloud Computing (0 seats free)]
+> enrol|S1001|Again|again@example.edu|B.E. CSE|3
+  ERROR Already exists: duplicate student id S1001
+Notifications sent: 0 e-mail, 0 SMS

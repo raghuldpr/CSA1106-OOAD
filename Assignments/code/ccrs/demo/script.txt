@@ -1,0 +1,22 @@
+# Scripted user session used as execution evidence
+enrol|S1001|Asha Kumar|asha@example.edu|B.E. CSE|3
+enrol|S1002|Ravi Shankar|ravi@example.edu|B.E. IT|3
+enrol|S1003||missing@example.edu|B.E. IT|3
+enrol|S1004|Bad Semester|bad@example.edu|B.E. IT|9
+enrol|S1005|Not Number|nn@example.edu|B.E. IT|three
+enrol|S1001|Duplicate Id|dup@example.edu|B.E. CSE|3
+register|S1001|CSA1106
+register|S1001|csa1201
+register|S1001|CSA1106
+register|S9999|CSA1106
+register|S1001|XYZ0000
+register|S1001|CSA1605
+register|S1002|CSA1605
+register|S1001|CSA1302
+register|S1001|CSA1403
+register|S1001|CSA1504
+list|S1001
+drop|R0001
+drop|R0001
+list|S1001
+register||

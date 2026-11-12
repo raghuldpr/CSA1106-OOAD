@@ -1,0 +1,4 @@
+M1 KILLED run 28 fail 0 err 1 ['CancellationBoundaryTest.confirmedCancellationRespectsTheTwoHourRule']
+M2 KILLED run 28 fail 1 err 0 ['AppointmentLifecycleTest.requestedIsCancelledAndSlotReleasedWhenPaymentTimesOut']
+M3 KILLED run 28 fail 2 err 0 ['PreferredChannelTest.confirmationGoesByEmailWhenEmailIsPreferred', 'PreferredChannelTest.confirmationGoesBySmsWhenSmsIsPreferred']
+mutation score v2: 3/3 = 100%

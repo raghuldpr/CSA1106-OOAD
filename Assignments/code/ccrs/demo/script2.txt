@@ -1,0 +1,3 @@
+list|S1001
+list|S1002
+enrol|S1001|Again|again@example.edu|B.E. CSE|3
